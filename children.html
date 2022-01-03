@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>children page</title>
+    <link rel="stylesheet" href="./css/categories.css" />
+  </head>
+  <body>
+    <header>
+      <a class="pointer pm-0 scale-1" href="./index.html">
+        <img class="logo" src="img/logo.png" height="40" alt="LC-wakiki logo" />
+      </a>
+      <div class="navbar">
+        <nav>
+          <p class="pointer">Categories &#9660;</p>
+          <div class="dropdown">
+            <a href="./babies.html">babies</a>
+            <a href="./children.html">children</a>
+            <a href="./men.html">men</a>
+          </div>
+        </nav>
+        <a href="./about.html">About</a>
+      </div>
+    </header>
+
+    <main>
+      <h1>children category</h1>
+      <div class="clothes">
+        <h2 class="title">shoes</h2>
+        <ul class="clothes-ul">
+          <li>
+            <img
+              src="./img/items/baby-cloths.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Ink dress</p>
+
+              <div>
+                <span class="mr-05"> 13<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good Ink dress for children</p>
+          </li>
+          <li>
+            <img
+              src="./img/items/baby-socks2.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Pink shoes</p>
+
+              <div>
+                <span class="mr-05"> 25<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good pink shoes for children</p>
+          </li>
+          <li>
+            <img
+              src="./img/items/baby-shoes2.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Brown shoes</p>
+
+              <div>
+                <span class="mr-05"> 37<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good Brown shoes for children</p>
+          </li>
+          <li>
+            <img
+              src="./img/items/baby-socks1.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Pink sock</p>
+              <div>
+                <span class="mr-05"> 10<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good pink shoes for children</p>
+          </li>
+          <li>
+            <img
+              src="./img/items/baby-shoes3.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Pink shoes</p>
+
+              <div>
+                <span class="mr-05"> 24<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good pink shoes for children</p>
+          </li>
+
+          <li>
+            <img
+              src="./img/items/baby-shoes1.jpg"
+              alt="clothes"
+              width="300px"
+              height="300px"
+            />
+            <div class="buy-box">
+              <p>Green shoes</p>
+              <div>
+                <span class="mr-05"> 25<strong>$</strong> </span>
+                <button class="btn--buy">Buy</button>
+              </div>
+            </div>
+            <hr />
+            <p>Good green shoes for children</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+  <script>
+    var buyButtons = document.querySelectorAll(".clothes-ul .btn--buy");
+
+    buyButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        alert("Are you sure to buy this item?");
+      });
+    });
+  </script>
+</html>

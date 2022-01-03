@@ -1,0 +1,127 @@
+@import url('./nav.css');
+@import url('./global.css');
+
+/*  */
+
+main {
+	font-size: 1.4rem;
+
+	margin-bottom: 2rem;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 5rem;
+	font-size: 3rem;
+}
+
+.categories {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+}
+
+.categories li a {
+	color: black;
+}
+
+.categories li img {
+	border-radius: 50%;
+}
+
+.categories li p {
+	text-align: center;
+}
+
+.price-table {
+
+	border-spacing: 0;
+	border: 1px solid black;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-top: 4rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.price-table th {
+	background-color: #ebcba3;
+}
+
+.price-table tr:nth-child(odd) {
+	background-color: rgb(193, 231, 158);
+}
+
+.price-table tr:nth-child(even) {
+	background-color: rgb(223, 255, 194);
+
+}
+
+.price-table th, .price-table td {
+
+	padding: 0.5rem 1rem;
+}
+
+
+@media (max-width:560px) {
+	.h1 {
+		font-size: 2.2rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.categories {
+		margin-bottom: 2.5rem;
+	}
+
+	.categories img {
+		max-width: 150px;
+	}
+
+	.price-table {
+		margin-top: 2.5rem;
+		font-size: 1rem;
+	}
+
+	.price-table th, .price-table td {
+		padding: 0.5rem;
+	}
+}
+
+@media (max-width:490px) {
+
+	.h1 {
+		font-size: 2rem;
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.categories {
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
+	}
+
+	.categories img {
+		max-width: 100px;
+		display: block;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.price-table {
+		margin-top: 2rem;
+		font-size: 1rem;
+	}
+
+	.price-table th, .price-table td {
+		font-size: 0.8rem;
+		padding: 0.25rem;
+	}
+}

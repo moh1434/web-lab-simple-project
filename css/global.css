@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pm-0 {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+a {
+	transition: ease-in-out 250ms;
+}
+
+a:hover {
+	display: block;
+	transform: scale(1.1);
+	color: red;
+}
+
+.pointer {
+	cursor: pointer;
+}
