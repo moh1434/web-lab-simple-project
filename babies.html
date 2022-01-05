@@ -139,14 +139,10 @@
         </ul>
       </div>
     </main>
+    <footer>
+      <span id="js-clock"></span>
+    </footer>
+    <script src="js/buyBtn.js"></script>
+    <script src="js/clock.js"></script>
   </body>
-  <script>
-    var buyButtons = document.querySelectorAll(".clothes-ul .btn--buy");
-
-    buyButtons.forEach((btn) => {
-      btn.addEventListener("click", () => {
-        alert("Are you sure to buy this item?");
-      });
-    });
-  </script>
 </html>
