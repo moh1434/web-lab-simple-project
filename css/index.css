@@ -41,7 +41,7 @@ h1 {
 
 	border-spacing: 0;
 	border: 1px solid black;
-	border-radius: 20px;
+	border-radius: 10px;
 	overflow: hidden;
 	margin-top: 4rem;
 	margin-left: auto;
@@ -121,7 +121,6 @@ h1 {
 	}
 
 	.price-table th, .price-table td {
-		font-size: 0.8rem;
-		padding: 0.25rem;
+		padding: 0.2rem;
 	}
 }

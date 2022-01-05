@@ -9,7 +9,7 @@ header, .navbar {
 	transform: scale(1) !important;
 }
 
-@media (max-width:617px) {
+@media (max-width:590px) {
 	header {
 		justify-content: center;
 		padding-top: 1.5rem;
@@ -76,4 +76,10 @@ header .logo {
 		font-size: 1rem;
 	}
 
+}
+
+@media (max-width:310px) {
+	.logo {
+		height: 35px;
+	}
 }
